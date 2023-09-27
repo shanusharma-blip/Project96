@@ -1,0 +1,170 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url("Background.avif");
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+/* CSS for the image (60%) */
+.image {
+    flex: 60%;
+    max-width: 40%; /*Ensure the image doesn't exceed its container */
+    margin-top: 120px;
+    margin-left: 40px;
+    border: 3px solid #6f91a0;
+    
+}
+
+/* CSS for the text (40%) */
+.text {
+    flex: 40%;
+    padding: 20px; 
+    text-align: center;
+    margin-top: 1%;
+}
+
+.text h1{
+    font-size: 3rem;
+}
+
+.text p{
+    font-size: 1rem;
+    padding: 20px;
+}
+
+.wrapper{
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+  }
+  
+  a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  a span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ff003b;
+    transition: all .35s;
+  }
+  
+  a:hover{
+    color: #fff;
+  }
+  
+  a:hover:after{
+    width: 100%;
+  }
+
+  .containers {
+    display: flex;
+    align-items: center; /* Vertically center content */
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+/* CSS for the text section (40%) */
+.text-section {
+    flex: 50%;
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+}
+
+.text-section h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.text-section p{
+    font-size: 1rem;
+    padding: 20px;
+}
+
+/* CSS for the image section (60%) */
+.image-section {
+    flex: 50%;
+}
+
+/* CSS for the image within the image section */
+.images {
+    max-width: 80%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain image aspect ratio */
+    margin-left: 80px;
+    margin-top: 200px;
+    border: 3px solid #6f91a0;
+
+}
+
+.button{
+    position: absolute;
+    left: 20%;
+    transform: translate(-50%, -50%);
+  }
+  
+  a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  a span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ff003b;
+    transition: all .35s;
+  }
+  
+  a:hover{
+    color: #fff;
+  }
+  
+  a:hover:after{
+    width: 100%;
+  }
+
