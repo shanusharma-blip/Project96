@@ -168,3 +168,34 @@ body{
     width: 100%;
   }
 
+/* Add this CSS for the FAQ button and questions */
+.faq-button:hover + .faq-questions,
+.faq-questions:hover {
+    display: block;
+}
+
+.faq-questions {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.faq-questions h2 {
+    font-size: 1.5rem;
+}
+
+.faq-questions ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.faq-questions li {
+    margin: 5px 0;
+}
